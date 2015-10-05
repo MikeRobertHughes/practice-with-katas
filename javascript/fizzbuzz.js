@@ -8,7 +8,7 @@ function fizzbuzz(num) {
       console.log("Buzz")
     } else {
       console.log(x)
-    }
+    };
   }
 }
 

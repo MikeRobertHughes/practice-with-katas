@@ -3,7 +3,7 @@ function ageVerifier(age) {
     console.log("You're too young to enter")
   } else {
     console.log("You may proceed.")
-  }
+  };
 }
 
 ageVerifier(20)
