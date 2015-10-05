@@ -1,7 +1,7 @@
 function pigatize(word) {
   var first_letter = word[0]
   var word_without_first = word.slice(1)
-  var vowels = /[aeiou]/
+  var vowels = /[aeiouAEIOU]/
 
   if (vowels.test(first_letter)) {
     console.log(word + "ay")
